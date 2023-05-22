@@ -1,0 +1,1 @@
+export const createAlert = (message: string) => alert(message)

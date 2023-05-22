@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "sourceMap": false,
+    "target": "es5",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "rootDir": "src",
+    "types": ["vite/client"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue"
+  ]
+}
