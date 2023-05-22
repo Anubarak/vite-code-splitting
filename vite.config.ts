@@ -6,6 +6,7 @@ export default defineConfig({
         force: true
     },
     build: {
+        // just to see the output generated
         minify: false,
         lib: {
             entry: './src/main.ts',
